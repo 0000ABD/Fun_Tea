@@ -23,7 +23,7 @@ st.markdown("""
 <div class="creator">
     ☕ CHAI RECIPE LAB
     <br>
-    Created by YOUR NAME
+    Created by Abdullah
     <br>
     © 2026 All rights reserved
 </div>
