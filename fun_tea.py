@@ -7,6 +7,27 @@ st.set_page_config(
     page_icon="☕",
     layout="centered"
 )
+st.markdown("""
+<style>
+.creator {
+    text-align: center;
+    color: #D6A343;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="creator">
+    ☕ CHAI RECIPE LAB
+    <br>
+    Created by YOUR NAME
+    <br>
+    © 2026 All rights reserved
+</div>
+""", unsafe_allow_html=True)
 
 st.title("☕ My Chai Recipe Calculator")
 st.caption("Experiment, measure and develop your signature chai.")
